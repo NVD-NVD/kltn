@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: sportswear-database
+
+host: "http://localhost:8080"
+
+upload:
+  url: "http://localhost:8080/"
+  path: "/uploads/"

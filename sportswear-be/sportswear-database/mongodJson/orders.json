@@ -1,0 +1,551 @@
+{
+    "_id" : ObjectId("63ad0f5c5bf7af514a0ef2aa"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad039cd917c27d63820796")),
+            "quantity" : NumberLong(2),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "XL",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Xanh"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 216000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 216000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0797555838",
+    "note" : "",
+    "processing" : "Da_Giao_Hang",
+    "createdOn" : ISODate("2022-12-29T03:54:04.416+0000"),
+    "updateOn" : ISODate("2022-12-29T03:54:04.416+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad11cb5bf7af514a0ef2ab"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03e8d917c27d63820798")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Đen"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 20.0,
+            "total" : 96000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 96000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0969672910",
+    "note" : "",
+    "processing" : "Da_Giao_Hang",
+    "payment" : {
+        "transactionID" : "63ad11cc5bf7af514a0ef2ac",
+        "paymentID" : "63ad11cc5bf7af514a0ef2ac",
+        "processing" : "Da_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:04:29.098+0000"),
+        "updateDate" : ISODate("2022-12-29T04:04:29.098+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:04:26.883+0000"),
+    "updateOn" : ISODate("2022-12-29T04:04:26.883+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad13d95bf7af514a0ef2ad"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03e8d917c27d63820798")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "M",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Đen"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 20.0,
+            "total" : 96000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 96000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Cửa Đông",
+        "district" : "Quận Hoàn Kiếm",
+        "city" : "Hà Nội",
+        "country" : "Việt Nam"
+    },
+    "phone" : "085236744",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad13db5bf7af514a0ef2ae",
+        "paymentID" : "63ad13db5bf7af514a0ef2ae",
+        "processing" : "Da_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:13:15.592+0000"),
+        "updateDate" : ISODate("2022-12-29T04:13:15.592+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:13:13.484+0000"),
+    "updateOn" : ISODate("2022-12-29T04:13:13.484+0000"),
+    "enable" : false,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad19a35bf7af514a0ef2b0"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03c6d917c27d63820797")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Trắng"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0989542812",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad19a55bf7af514a0ef2b4",
+        "paymentID" : "63ad19a55bf7af514a0ef2b4",
+        "processing" : "Chua_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:37:57.701+0000"),
+        "updateDate" : ISODate("2022-12-29T04:37:57.701+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:37:55.495+0000"),
+    "updateOn" : ISODate("2022-12-29T04:37:55.495+0000"),
+    "enable" : false,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad19a35bf7af514a0ef2af"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03c6d917c27d63820797")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Trắng"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0989542812",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad19a55bf7af514a0ef2b5",
+        "paymentID" : "63ad19a55bf7af514a0ef2b5",
+        "processing" : "Chua_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:37:57.701+0000"),
+        "updateDate" : ISODate("2022-12-29T04:37:57.701+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:37:55.491+0000"),
+    "updateOn" : ISODate("2022-12-29T04:37:55.491+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad19a35bf7af514a0ef2b1"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03c6d917c27d63820797")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Trắng"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0989542812",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad19a55bf7af514a0ef2b3",
+        "paymentID" : "63ad19a55bf7af514a0ef2b3",
+        "processing" : "Chua_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:37:57.694+0000"),
+        "updateDate" : ISODate("2022-12-29T04:37:57.694+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:37:55.504+0000"),
+    "updateOn" : ISODate("2022-12-29T04:37:55.504+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad19a35bf7af514a0ef2b2"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03c6d917c27d63820797")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Trắng"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0989542812",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad19a55bf7af514a0ef2b6",
+        "paymentID" : "63ad19a55bf7af514a0ef2b6",
+        "processing" : "Chua_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T04:37:57.861+0000"),
+        "updateDate" : ISODate("2022-12-29T04:37:57.861+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T04:37:55.710+0000"),
+    "updateOn" : ISODate("2022-12-29T04:37:55.710+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad202165e7f4576061a3d6"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad03e8d917c27d63820798")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "XL",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Đen"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 20.0,
+            "total" : 96000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 96000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0967847412",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad202365e7f4576061a3d7",
+        "paymentID" : "63ad202365e7f4576061a3d7",
+        "processing" : "Da_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T05:05:39.559+0000"),
+        "updateDate" : ISODate("2022-12-29T05:05:39.559+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T05:05:37.338+0000"),
+    "updateOn" : ISODate("2022-12-29T05:05:37.338+0000"),
+    "enable" : false,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad252c65e7f4576061a3d8"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad039cd917c27d63820796")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "M",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Xanh"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường An Lợi Đông",
+        "district" : "Quận 2",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0976995841",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "createdOn" : ISODate("2022-12-29T05:27:08.033+0000"),
+    "updateOn" : ISODate("2022-12-29T05:27:08.033+0000"),
+    "enable" : false,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad25aa65e7f4576061a3d9"),
+    "user" : DBRef("user", ObjectId("63acf70307907917c0c9ae63")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad039cd917c27d63820796")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "L",
+                        "quantity" : NumberInt(1)
+                    }
+                ],
+                "color" : [
+                    "Xanh"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bến Nghé",
+        "district" : "Quận 1",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0947857234",
+    "note" : "",
+    "processing" : "Chua_Xu_Ly",
+    "createdOn" : ISODate("2022-12-29T05:29:13.810+0000"),
+    "updateOn" : ISODate("2022-12-29T05:29:13.810+0000"),
+    "enable" : false,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}
+{
+    "_id" : ObjectId("63ad294965e7f4576061a3dc"),
+    "user" : DBRef("user", ObjectId("63ad28c965e7f4576061a3db")),
+    "productsInOrder" : [
+        {
+            "product" : DBRef("products", ObjectId("63ad039cd917c27d63820796")),
+            "quantity" : NumberLong(1),
+            "options" : {
+                "sizes" : [
+                    {
+                        "size" : "XL",
+                        "quantity" : NumberInt(6)
+                    }
+                ],
+                "color" : [
+                    "Xanh"
+                ],
+                "features" : [
+                    ""
+                ]
+            },
+            "discount" : 10.0,
+            "total" : 108000.0
+        }
+    ],
+    "total" : {
+        "currency" : "vnd",
+        "price" : 108000.0
+    },
+    "address" : {
+        "number" : "",
+        "street" : "",
+        "ward" : "Phường Bình Trưng Đông",
+        "district" : "Quận 2",
+        "city" : "Hồ Chí Minh",
+        "country" : "Việt Nam"
+    },
+    "phone" : "0967129838",
+    "note" : "",
+    "processing" : "Dang_Xu_Ly",
+    "payment" : {
+        "transactionID" : "63ad294b65e7f4576061a3dd",
+        "paymentID" : "63ad294b65e7f4576061a3dd",
+        "processing" : "Da_Thanh_Toan",
+        "createDate" : ISODate("2022-12-29T05:44:43.799+0000"),
+        "updateDate" : ISODate("2022-12-29T05:44:43.799+0000")
+    },
+    "createdOn" : ISODate("2022-12-29T05:44:41.644+0000"),
+    "updateOn" : ISODate("2022-12-29T05:44:41.644+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Order"
+}

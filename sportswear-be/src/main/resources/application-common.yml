@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: sportswear-be
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 15MB
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  main:
+    allow-circular-references: true
+  jackson:
+    date-format: dd-MM-yyyy HH:mm:ss
+    time-zone: Asia/Ho_Chi_Minh
+
+jwt:
+  secret: K1LqzK6eeD0g0BfgOg7S
+
+default:
+  token_type: "Bearer"
+  password: 12345678
+  avatar: "default.png"
+  updatingInfoCloth: "Đang cập nhập"
+
+mail:
+  MyConstants:
+    MY_EMAIL: "zerodev247@gmail.com"
+    MY_PASSWORD: "buzylnegzpqswgkk"
+
+cloudinary:
+  cloud_name: dw0tkzfyp
+  api_key: 731957348138624
+  api_secret: hlYPsGMbQnDbgYbFb9BpM0SFwUs
+
+paging:
+  default:
+    page: 0
+    size: 20
+google:
+  verifyUrl: https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=
+
+logging:
+  level:
+    org.springframework.cache: error
+  file:
+    name: logs/sportswear-be.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  logback:
+    rollingpolicy:
+      clean-history-on-start: true
+      max-file-size: 100MB
+      max-history: 7
+
+server:
+  error:
+    include-exception: true
+    include-message: always
+  port: 8080

@@ -1,0 +1,75 @@
+.containerr {
+  width: 100%;
+  padding: none !important;
+  display: flex;
+}
+.left {
+  display: flex;
+  row-gap: 36px;
+  flex-direction: column;
+  width: 30%;
+  .total {
+    flex: 1;
+  }
+  .payment {
+    flex: 1;
+  }
+
+  .total {
+    flex: 1;
+    .pay {
+      width: 100%;
+      justify-content: flex-end;
+    }
+    .total-discount {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: red;
+    }
+    .total-price {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      span {
+        color: #4bcd55;
+      }
+      color: #4bcd55;
+      font-size: 30px;
+    }
+  }
+  .total {
+    .btn-vnpay {
+      background-color: #4bcd55 !important;
+      border: none;
+      &:hover {
+        color: rgb(143, 241, 238);
+      }
+    }
+  }
+}
+.right {
+  width: 70%;
+  .radio {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+  }
+  .tablee {
+    width: 100%;
+    min-width: none !important;
+  }
+}
+.address-picker {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  flex: 1;
+  input {
+    border-radius: 4px;
+    padding: 16px 12px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+  }
+}

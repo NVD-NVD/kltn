@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+/* Base styling */
+
+#ftco-navbar{
+    .container{
+        &.header{
+            padding: 12px 36px;
+            // background-color: red;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 8px;  
+            background-color: rgb(239, 247, 247);
+            width: 100vw !important;   
+            max-width: none !important;
+            display: flex;
+            align-items: center;
+            #ftco-nav{
+                ul{
+                    li{
+                        a{
+                            font-size: 14px;
+                            padding: 16px 24px;
+                            border-radius: 8px;
+                            font-weight: 400;
+
+                            &:hover{
+
+                                color: rgb(0, 0, 0);
+                                background-color: rgba(214, 223, 223, 0.67);
+
+                            }
+                        }
+                       
+                    }
+          
+                }
+            }
+               
+        }
+    }
+    
+}

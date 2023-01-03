@@ -1,0 +1,72 @@
+{
+    "_id" : ObjectId("63acfe8ed917c27d63820787"),
+    "title" : "Cầu Lông",
+    "productsOfCategory" : [
+        DBRef("products", ObjectId("63ad00c7d917c27d6382078c")),
+        DBRef("products", ObjectId("63ad0129d917c27d6382078d")),
+        DBRef("products", ObjectId("63ad0158d917c27d6382078e")),
+        DBRef("products", ObjectId("63ad016cd917c27d6382078f")),
+        DBRef("products", ObjectId("63ad0200d917c27d63820790")),
+        DBRef("products", ObjectId("63ad024dd917c27d63820791")),
+        DBRef("products", ObjectId("63ad0297d917c27d63820792")),
+        DBRef("products", ObjectId("63ad02c9d917c27d63820793")),
+        DBRef("products", ObjectId("63ad0315d917c27d63820794")),
+        DBRef("products", ObjectId("63ad033ad917c27d63820795"))
+    ],
+    "createdOn" : ISODate("2022-12-29T02:42:22.060+0000"),
+    "updateOn" : ISODate("2022-12-29T02:42:22.060+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Category"
+}
+{
+    "_id" : ObjectId("63acff64d917c27d63820789"),
+    "title" : "Bóng Chuyền",
+    "productsOfCategory" : [
+        DBRef("products", ObjectId("63ad039cd917c27d63820796")),
+        DBRef("products", ObjectId("63ad03c6d917c27d63820797")),
+        DBRef("products", ObjectId("63ad03e8d917c27d63820798")),
+        DBRef("products", ObjectId("63ad0406d917c27d63820799")),
+        DBRef("products", ObjectId("63ad042dd917c27d6382079a")),
+        DBRef("products", ObjectId("63ad0472d917c27d6382079b")),
+        DBRef("products", ObjectId("63ad04a0d917c27d6382079c")),
+        DBRef("products", ObjectId("63ad04c3d917c27d6382079d")),
+        DBRef("products", ObjectId("63ad04fdd917c27d6382079e")),
+        DBRef("products", ObjectId("63ad0564d917c27d6382079f"))
+    ],
+    "createdOn" : ISODate("2022-12-29T02:45:56.951+0000"),
+    "updateOn" : ISODate("2022-12-29T02:45:56.951+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Category"
+}
+{
+    "_id" : ObjectId("63acff6ed917c27d6382078a"),
+    "title" : "Bóng rổ",
+    "productsOfCategory" : [
+        DBRef("products", ObjectId("63ad05b8d917c27d638207a0")),
+        DBRef("products", ObjectId("63ad05b9d917c27d638207a1")),
+        DBRef("products", ObjectId("63ad0619d917c27d638207a2")),
+        DBRef("products", ObjectId("63ad0649d917c27d638207a3")),
+        DBRef("products", ObjectId("63ad0672d917c27d638207a4")),
+        DBRef("products", ObjectId("63ad06b6d917c27d638207a5")),
+        DBRef("products", ObjectId("63ad06d8d917c27d638207a6")),
+        DBRef("products", ObjectId("63ad06f9d917c27d638207a7"))
+    ],
+    "createdOn" : ISODate("2022-12-29T02:46:06.466+0000"),
+    "updateOn" : ISODate("2022-12-29T02:46:06.466+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Category"
+}
+{
+    "_id" : ObjectId("63acff74d917c27d6382078b"),
+    "title" : "Bóng đá",
+    "productsOfCategory" : [
+        DBRef("products", ObjectId("63ad079ed917c27d638207a8")),
+        DBRef("products", ObjectId("63ad07f6d917c27d638207a9")),
+        DBRef("products", ObjectId("63ad0822d917c27d638207aa")),
+        DBRef("products", ObjectId("63ad084fd917c27d638207ab"))
+    ],
+    "createdOn" : ISODate("2022-12-29T02:46:12.514+0000"),
+    "updateOn" : ISODate("2022-12-29T02:46:12.514+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.Category"
+}

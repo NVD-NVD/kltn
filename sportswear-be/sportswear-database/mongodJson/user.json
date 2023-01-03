@@ -1,0 +1,45 @@
+{
+    "_id" : ObjectId("63acf70307907917c0c9ae63"),
+    "password" : "$2a$10$jreEu0lF2ptj8bpx6YE96OAU87CPFeTm/uz2x0vA8XCdznJqC3u/u",
+    "avatar" : "https://sportswear-be.herokuapp.com/rest/image/avatar/default.png",
+    "roles" : [
+        "ROLE_ADMIN",
+        "ROLE_MEMBER"
+    ],
+    "createdOn" : ISODate("2022-12-29T02:10:11.472+0000"),
+    "updateOn" : ISODate("2022-12-29T05:58:30.346+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.User",
+    "phone" : "0989542812",
+    "email" : "zerodev247@gmail.com"
+}
+{
+    "_id" : ObjectId("63ad27ac65e7f4576061a3da"),
+    "phone" : "0967129838",
+    "email" : "pkt10112000@gmail.com",
+    "password" : "$2a$10$VSwFMQK2hrOrgpRY2aSmAuh4SBhPf7V/8k2VQwdUaUwcosCZ1gn2y",
+    "name" : "Thành",
+    "avatar" : "https://sportswear-be.herokuapp.com/rest/image/avatar/default.png",
+    "roles" : [
+        "ROLE_MEMBER"
+    ],
+    "createdOn" : ISODate("2022-12-29T05:37:48.471+0000"),
+    "updateOn" : ISODate("2022-12-29T05:37:48.471+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.User"
+}
+{
+    "_id" : ObjectId("63ad28c965e7f4576061a3db"),
+    "phone" : "0918446350",
+    "email" : "hmt10112000@gmail.com",
+    "password" : "$2a$10$IpcxOQB7sc95ogfsGmhbp.2B.fiVP4gei5XRJYhrIxEGC8oM5heRa",
+    "name" : "hoàng",
+    "avatar" : "https://sportswear-be.herokuapp.com/rest/image/avatar/default.png",
+    "roles" : [
+        "ROLE_MEMBER"
+    ],
+    "createdOn" : ISODate("2022-12-29T05:42:33.324+0000"),
+    "updateOn" : ISODate("2022-12-29T05:42:33.324+0000"),
+    "enable" : true,
+    "_class" : "com.ute.sportswearbe.entities.User"
+}

@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://NVD-NVD:1gVDdiq1RKs2LVh2@cluster0.7hkjpog.mongodb.net/?retryWrites=true&w=majority
+      database: sportswear-database
+
+host: "https://sportswear-be.herokuapp.com"
+
+upload:
+  url: "https://sportswear-be.herokuapp.com/"
+  path: "/uploads/"

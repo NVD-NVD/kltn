@@ -1,0 +1,33 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 12px 0px;
+  padding: 12px;
+  .num {
+    transition: all 0.3s;
+    cursor: pointer;
+    padding: 4px 12px;
+    border-radius: 8px;
+    &.active {
+      background-color: #f46a6a;
+      color: white;
+      &:hover {
+        background-color: #f46a6a;
+      }
+    }
+    &:hover {
+      background-color: #e99b9b;
+    }
+  }
+  .btn-change {
+    border-radius: 8px;
+    padding: 4px 12px;
+    background-color: white;
+    color: black;
+    margin: 0px 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
